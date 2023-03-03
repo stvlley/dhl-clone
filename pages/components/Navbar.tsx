@@ -4,6 +4,10 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { BsGlobe } from 'react-icons/bs';
 import { BsChevronDown } from 'react-icons/bs';
 
+// todo=> make yellow navbar fixed to top when scrolling
+// todo=> add feedback top to side and backtop top arrow (fixed to position)
+
+
 const Navbar = () => {
     return (
 
