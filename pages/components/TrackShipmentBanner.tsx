@@ -23,10 +23,40 @@ const TrackShipmentBanner = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-3 bottom-0 absolute'>
-                <div>one</div>
-                <div>two</div>
-                <div>three</div>
+            <div className='shadow grid min-w-[1100px] grid-cols-3 -bottom-10 absolute'>
+                <div className='flex justify-center items-center flex-col  border rounded-l w-full mt-10 h-[150px] bg-white'>
+                    <Image src='https://www.dhl.com/content/dam/dhl/global/core/images/icons/general-icons/glo-core-online.svg'
+                        height={40}
+                        width={40}
+                        alt='icon'
+                        className='' />
+                    <h2 className='hover:text-[#D40511] my-2 font-bold text-sm'>Ship Now</h2>
+                    <p className='tracking-wider text-xs font-extralight'>Find the right service</p>
+                </div>
+                <div className='flex justify-center items-center flex-col  w-full border mt-10 h-[150px] bg-white'>
+                    <Image src=' https://www.dhl.com/content/dam/dhl/global/core/images/icons/general-icons/glo-core-getaquote.svg'
+                        height={40}
+                        width={40}
+                        alt='icon' />
+                    <h2 className='hover:text-[#D40511] my-2 font-bold text-sm'>Get a Quote</h2>
+                    <p className='tracking-wider font-extralight text-xs'>Estimate cost to share and compare</p>
+                </div>
+                <div className='relative c-voc-quicklink flex justify-center items-center flex-col  w-full border rounded rounded-t h-[190px] bg-white'>
+                    <Image src='https://www.dhl.com/content/dam/dhl/global/core/images/icons/gogreen-icons/glo-core-gogreen-warehousing.svg'
+                        height={50}
+                        width={50}
+                        alt='icon' />
+                    <h2 className='hover:text-[#D40511] my-2 font-bold text-sm'>DHL for Business</h2>
+                    <p className='text-xs font-extralight tracking-wider'>Shipping regularly? Request a business</p>
+                    <p className='text-xs font-extralight tracking-wider'>account and profit from exclusive benefits</p>
+
+                    <div className="-top-1 -right-7 z-0 rotate-45 absolute
+                    border-l-[45px] border-l-transparent
+                    border-b-[45px] border-b-[#FFCC00]
+                    border-r-[45px] border-r-transparent">
+                    </div>
+
+                </div>
             </div>
 
         </div>
