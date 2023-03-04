@@ -15,7 +15,7 @@ const TrackShipmentBanner = () => {
                         <button className='text-white bg-[#D40511] px-10 border rounded-r-lg border-white font-bold tracking-wider'>Track</button>
                     </div>
                     <div className='flex items-center'>
-                        <p className='mt-4 text-xl'>
+                        <p className='mt-4 text-lg font-bold'>
                             DHL Express Reference Tracking
                         </p>
                         <AiOutlineRight className='mt-4 mx-2 text-2xl' />
@@ -23,7 +23,7 @@ const TrackShipmentBanner = () => {
                     </div>
                 </div>
             </div>
-            <div className='shadow grid min-w-[1100px] grid-cols-3 -bottom-10 absolute'>
+            <div className='shadow grid min-w-[900px] grid-cols-3 -bottom-10 absolute'>
                 <div className='flex justify-center items-center flex-col  border rounded-l w-full mt-10 h-[150px] bg-white'>
                     <Image src='https://www.dhl.com/content/dam/dhl/global/core/images/icons/general-icons/glo-core-online.svg'
                         height={40}
