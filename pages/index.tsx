@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Navbar from './components/Navbar'
 import TrackShipmentBanner from './components/TrackShipmentBanner'
 import ImportServiceUpdates from './components/ImportServiceUpdates'
+import DocAndParcel from './components/DocAndParcel'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Navbar />
       <TrackShipmentBanner />
       <ImportServiceUpdates />
+      <DocAndParcel />
 
 
     </div>
