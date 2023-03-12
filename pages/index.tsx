@@ -4,6 +4,9 @@ import Navbar from './components/Navbar'
 import TrackShipmentBanner from './components/TrackShipmentBanner'
 import ImportServiceUpdates from './components/ImportServiceUpdates'
 import DocAndParcel from './components/DocAndParcel'
+import RetailVolume from './components/RetailVolume'
+import CargoShipping from './components/CargoShipping'
+import EnterpriseLogistics from './components/EnterpriseLogistics'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +21,9 @@ const Home: NextPage = () => {
       <TrackShipmentBanner />
       <ImportServiceUpdates />
       <DocAndParcel />
+      <RetailVolume />
+      <CargoShipping />
+      <EnterpriseLogistics />
 
 
     </div>
